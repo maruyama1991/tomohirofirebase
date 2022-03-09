@@ -1,0 +1,125 @@
+body {
+    font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.mainbox {
+    position: relative;
+}
+
+.mainimage {
+    width: 100%;
+    background-size: cover;
+}
+
+.mainimage_innertext {
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 25px);
+    text-align: center;
+    color: rgb(239, 243, 247);
+    font-size: 4vw;
+    line-height: 50px;
+}
+
+.mainimage_icon {
+    position: absolute;
+    width: 25%;
+    bottom: -55%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.profile {
+    margin: 0 auto;
+    max-width: 350PX;
+    font-size: 1.4vw;
+    margin-top: 20%;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.name {
+    text-align: center;
+    font: bold;
+    font-size: 130%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.contents {
+    width: 243px;
+    margin: 0 5px 10px 5px;
+    background: #ffffff;
+    object-fit: contain;
+}
+
+.contents image {
+    height: 1rem;
+    width: 1rem;
+}
+
+.image-title {
+    text-align: center;
+    font-size: 80%;
+}
+
+.image-text {
+    font-size: 80%;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.contents img {
+    width: 100%;
+}
+
+.footer {
+    height: 50px;
+    color: rgb(122, 126, 126);
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.greetBox {
+    justify-content: center;
+    max-width: 600px;
+    margin: 70px auto;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.studyBox {
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.studyImage {
+    margin-top: 10px;
+}
+
+.studyText {
+    width: 70%;
+    margin: auto;
+}
